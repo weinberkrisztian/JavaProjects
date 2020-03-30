@@ -1,0 +1,9 @@
+Java alkalmazás Spring keretrendszerrel,amely Securityit is tartalmaz loginnal és felhasználókkal.
+Helyi adatbázis van hozzárendelve,amivel Hibernaten keresztül kommunikálunk.
+MySQL adatbázis. Létrehozásukhoz szükséges sql scriptek megtalálhatóak a projektben.
+A projekt futtatásához egy Tomcat szerver szükséges.
+3 felhasználó van john,susan és mary névvel. Mind3nak github a jelszava.
+Ez egy CRUD app,vagyis Create,Read,Update,Delete.
+Customerekkel tudjuk ezeket a elvégezni. Letudjuk kérdezni a meglévõ listát,
+hozzá tudunk adni új tagot, updatelni ill törölni is tudjuk õket vagy akár keresni is tudunk közük.
+Mindezen funkciók ROLE hoz vannak kötve. Deklarálva van EMPLOYEE,MANAGER,ADMIN szerepkör.
